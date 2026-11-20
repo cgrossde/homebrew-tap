@@ -15,8 +15,8 @@ cask "klar" do
     skip "Auto-generated on release."
   end
 
-  depends_on macos: :sequoia
   depends_on arch: :arm64
+  depends_on macos: :sequoia
 
   app "Klar.app"
 
